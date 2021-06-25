@@ -28,12 +28,14 @@ function handleKeywordChange(event) {
 
     return (
         <div className="Dictionary">
+            <h1 className="text-center">Dictionary</h1>
+            <section>
             <form onSubmit={search}>
         <div className="input-group">
     <input
     type="search"
     className="form-control"
-    placeholder="What word would you like to search?"
+    placeholder="What word do you want to look up?"
     autoFocus="on"
     onChange={handleKeywordChange}
   />
@@ -42,6 +44,7 @@ function handleKeywordChange(event) {
   </button>
   </div>
   </form>
+  </section>
   <Results results={results} />
         </div>
     );

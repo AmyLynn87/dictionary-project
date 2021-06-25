@@ -1,0 +1,9 @@
+.Phonetic .phoneticText {
+    margin: 10px;
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+.Phonetic .audioPlayer  {
+margin: 10px;
+}
