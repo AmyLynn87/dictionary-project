@@ -2,8 +2,22 @@
     margin: 10px;
     opacity: 0.5;
     font-weight: bold;
+    display: inline-block;
 }
 
-.Phonetic .audioPlayer  {
-margin: 10px;
+.Phonetic .audioButton {
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #000;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.5 );
+}
+
+
+.Phonetic .audioButton:active {
+    box-shadow: none;
+    transform: translateY(4px);
 }
